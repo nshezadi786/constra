@@ -1062,7 +1062,11 @@ export default {
 
     outline: none;
 }
-
+@media (min-width: 768px) {
+  .custom-toggler {
+    display: none !important;
+  }
+}
 /* =========================
    NAVBAR RESPONSIVE
    1024px - 858px
