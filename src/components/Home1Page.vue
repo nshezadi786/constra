@@ -862,7 +862,9 @@ html, body {
     margin-left: -15px;
     justify-content: center;
 }
-
+.top-info-bar {
+  background-color: #e1e5e9;
+}
 /* MAIN BANNER */
 
 .banner-area {
@@ -885,8 +887,14 @@ html, body {
     width: 100%;
     overflow: hidden;
 }
-
-
+@media (min-width: 768px) {
+  .custom-toggler {
+    display: none !important;
+  }
+   .navbar-menu {
+        display: none !important;
+    }
+}
 /* BACKGROUND IMAGE */
 
 .slider-image {
@@ -1883,7 +1891,14 @@ html, body {
   margin-right: 50px;
 }
 
-
+@media (min-width: 768px) {
+  .custom-toggler {
+    display: none !important;
+  }
+   .navbar-menu {
+        display: none !important;
+    }
+}
 /*-------------features--------------------*/
 .ts-features {
   overflow-x: hidden;

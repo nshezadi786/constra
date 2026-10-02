@@ -903,6 +903,7 @@ export default {
 
 .top-info-bar {
   width: 100%;
+  background-color: #e1e5e9;
 }
 
 .top-info-bar .info-bar {
@@ -1066,6 +1067,9 @@ export default {
   .custom-toggler {
     display: none !important;
   }
+   .navbar-menu {
+        display: none !important;
+    }
 }
 /* =========================
    NAVBAR RESPONSIVE
