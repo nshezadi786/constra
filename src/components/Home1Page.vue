@@ -892,7 +892,7 @@ html, body {
     display: none !important;
   }
    .navbar-menu {
-        display: none !important;
+        display: flex !important;
     }
 }
 /* BACKGROUND IMAGE */

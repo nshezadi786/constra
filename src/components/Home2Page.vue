@@ -1068,7 +1068,7 @@ export default {
     display: none !important;
   }
    .navbar-menu {
-        display: none !important;
+        display: flex !important;
     }
 }
 /* =========================
