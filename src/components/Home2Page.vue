@@ -1017,7 +1017,36 @@ export default {
     float: left;
 }
 
+.custom-toggler {
+    width: 45px;
+    height: 40px;
+    /* ... */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+
+/* SAB SE LAST MEIN */
+@media (min-width: 768px) {
+    .custom-toggler {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-toggler {
+        display: flex !important;
+    }
+
+    .navbar-nav {
+        display: none !important;
+    }
+}
 /* 3 hamburger lines */
 
 .hamburger-lines {
@@ -1063,14 +1092,7 @@ export default {
 
     outline: none;
 }
-@media (min-width: 768px) {
-  .custom-toggler {
-    display: none !important;
-  }
-   .navbar-menu {
-        display: flex !important;
-    }
-}
+
 /* =========================
    NAVBAR RESPONSIVE
    1024px - 858px

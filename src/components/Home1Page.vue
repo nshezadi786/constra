@@ -484,14 +484,14 @@
           </div>
   <div class="tab-pane fade" id="nav-education" role="tabpanel" aria-labelledby="nav-education-tab">
        <div class="image-overlay-container">
-              <img src="@/assets/images/projects/project4.jpg" alt="infrastructure Project 4" class="img-fluid" />
+              <img src="@/assets/images/projects/project4.jpg" alt="insfrastructure Project 4" class="img-fluid" />
                  <div class="overlay-text">
                 <div class="gallery-icon-top-right">
                   <i class="fa fa-plus"></i>
                 </div>
                  <h3 class="project-title">Narrriot Headquarters</h3>
                   <p class="project-cat">
-                   <router-link to="/project-single">Infrastructure</router-link>
+                   <router-link to="/project-single">Insfrastructure</router-link>
                 </p>
                </div>
             </div>
@@ -887,14 +887,7 @@ html, body {
     width: 100%;
     overflow: hidden;
 }
-@media (min-width: 768px) {
-  .custom-toggler {
-    display: none !important;
-  }
-   .navbar-menu {
-        display: flex !important;
-    }
-}
+
 /* BACKGROUND IMAGE */
 
 .slider-image {
