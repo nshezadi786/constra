@@ -34,7 +34,7 @@
       <div class="logo-area">
         <div class="row align-items-center">
           <div class="logo col-lg-3 mb-lg-0 text-center text-lg-left mb-md-5 col-md-6 col-sm-4">
-            <a class="d-block" href="constra Template project.html">
+            <a class="d-block" href="/">
              <img src="@/assets/images/logo.png" alt="constra">
             </a>
           </div>
