@@ -30,7 +30,7 @@
    <section class="header-two p-0" id="header" :class="{'fixed-top': isFixed }">
 <nav class="navbar navbar-expand-lg bg-light navbar-dark p-0">
         <div class="container-fluid">
-          <router-link class="navbar-brand" to="/home-two">
+          <router-link class="navbar-brand" to="/">
             <img src="@/assets/images/logo.png" alt="constra" style="width:auto; height: 35px;" class="img-fluid">
           </router-link>
           <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
