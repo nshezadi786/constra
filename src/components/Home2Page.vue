@@ -442,8 +442,8 @@
      <button class="nav-link" id="nav-Goverment-tab" data-bs-toggle="tab" data-bs-target="#nav-Goverment" 
     type="button" role="tab" aria-controls="nav-Goverment" aria-selected="false">GOVERMENT</button>
 
-     <button class="nav-link" id="nav-Insfrastructure-tab" data-bs-toggle="tab" data-bs-target="#nav-Insfrastructure" 
-    type="button" role="tab" aria-controls="nav-Insfrastructure" aria-selected="false">INSFRASTRUCTURE</button>
+     <button class="nav-link" id="nav-Infrastructure-tab" data-bs-toggle="tab" data-bs-target="#nav-Infrastructure"
+  type="button" role="tab" aria-controls="nav-Infrastructure" aria-selected="false">INFRASTRUCTURE</button>
 
      <button class="nav-link" id="nav-Residential-tab" data-bs-toggle="tab" data-bs-target="#nav-Residential" 
     type="button" role="tab" aria-controls="nav-Residential" aria-selected="false">RESIDENTIAL</button>
@@ -527,6 +527,7 @@
                </div>
             </div>
           </div>
+           <!------------commercial-tab----------------------->
   <div class="tab-pane fade" id="nav-commercial" role="tabpanel" aria-labelledby="nav-commercial-tab"> 
     <div class="image-overlay-container">
               <img src="@/assets/images/projects/project3.jpg" alt="Commercial Project 1" class="img-fluid" />
@@ -541,6 +542,7 @@
                </div>
             </div>
           </div>
+           <!------------education-tab----------------------->
   <div class="tab-pane fade" id="nav-education" role="tabpanel" aria-labelledby="nav-education-tab">
        <div class="image-overlay-container">
               <img src="@/assets/images/projects/project4.jpg" alt="infrastructure Project 4" class="img-fluid" />
@@ -567,7 +569,7 @@
                </div>
              </div>
           </div>
-
+                   <!------------goverment-tab----------------------->
               <div class="tab-pane fade" id="nav-Goverment" role="tabpanel" aria-labelledby="nav-Goverment-tab">
                  <div class="image-overlay-container">
               <img src="@/assets/images/projects/project1.jpg" alt="goverment Project 3" class="img-fluid" />
@@ -582,8 +584,46 @@
                </div>
             </div>
               </div>
-               <div class="tab-pane fade" id="nav-Infrastructure" role="tabpanel" aria-labelledby="nav-Infrastructure-tab">
+               <!--------infrastructure-tab----------->
+      <div class="tab-pane fade" id="nav-Infrastructure" role="tabpanel" aria-labelledby="nav-Infrastructure-tab">
+                  <div class="image-overlay-container">
+              <img src="@/assets/images/projects/project3.jpg" alt="Commercial Project 1" class="img-fluid" />
+                  <div class="overlay-text">
+                <div class="gallery-icon-top-right">
+                  <i class="fa fa-plus"></i>
+                </div>
+                 <h3 class="project-title">TNT East facility</h3>
+                  <p class="project-cat">
+                 <router-link to="/project-single">Goverment</router-link>
+                </p>
                </div>
+            </div>
+              <div class="image-overlay-container">
+              <img src="@/assets/images/projects/project4.jpg" alt="infrastructure Project 4" class="img-fluid" />
+                 <div class="overlay-text">
+                <div class="gallery-icon-top-right">
+                  <i class="fa fa-plus"></i>
+                </div>
+                 <h3 class="project-title">Narrriot Headquarters</h3>
+                  <p class="project-cat">
+                     <router-link to="/project-single">Infrastructure</router-link>
+                </p>
+               </div>
+            </div>
+            <div class="image-overlay-container">
+               <img src="@/assets/images/projects/project5.jpg" alt="Education Project 2" class="img-fluid" />
+                <div class="overlay-text">
+                <div class="gallery-icon-top-right">
+                  <i class="fa fa-plus"></i>
+                </div>
+                 <h3 class="project-title">Kalas Matrorial</h3>
+                  <p class="project-cat">
+                  <router-link to="/project-single">Infrastructure</router-link>
+                </p>
+               </div>
+             </div>
+            </div>
+                 <!------------residental-tab----------------------->
                 <div class="tab-pane fade" id="nav-Residential" role="tabpanel" aria-labelledby="nav-Residential-tab">
                    <div class="image-overlay-container">
               <img src="@/assets/images/projects/project6.jpg" alt="Residential project 5" class="img-fluid" />
@@ -598,8 +638,22 @@
                </div>
             </div>
                 </div>
+                 <!------------health-tab----------------------->
                  <div class="tab-pane fade" id="nav-Healthcare" role="tabpanel" aria-labelledby="nav-Healthcare-tab">
-                   <div class="image-overlay-container">
+                    <div class="image-overlay-container">
+              <img src="@/assets/images/projects/project1.jpg" alt="goverment Project 3" class="img-fluid" />
+              <div class="overlay-text">
+              <div class="gallery-icon-top-right">
+                  <i class="fa fa-plus"></i>
+                </div>
+                 <h3 class="project-title">Capital Teltway Buildings</h3>
+                  <p class="project-cat">
+                   <router-link to="/project-single">Commercial,Interiors</router-link>
+                </p>
+               </div>
+            </div>
+                  
+                  <div class="image-overlay-container">
               <img src="@/assets/images/projects/project2.jpg" alt="Healthcare Project 6" class="img-fluid" />
               <div class="overlay-text">
                  <div class="gallery-icon-top-right">
@@ -1017,36 +1071,7 @@ export default {
     float: left;
 }
 
-.custom-toggler {
-    width: 45px;
-    height: 40px;
-    /* ... */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-
-/* SAB SE LAST MEIN */
-@media (min-width: 768px) {
-    .custom-toggler {
-        display: none !important;
-    }
-
-    .navbar-nav {
-        display: flex !important;
-    }
-}
-
-@media (max-width: 767px) {
-    .custom-toggler {
-        display: flex !important;
-    }
-
-    .navbar-nav {
-        display: none !important;
-    }
-}
 /* 3 hamburger lines */
 
 .hamburger-lines {
@@ -1092,7 +1117,15 @@ export default {
 
     outline: none;
 }
-
+@media (max-width: 768px) {
+  .custom-toggler {
+    display: flex !important;
+      align-items: center !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+       white-space: nowrap !important;
+  }
+}
 /* =========================
    NAVBAR RESPONSIVE
    1024px - 858px

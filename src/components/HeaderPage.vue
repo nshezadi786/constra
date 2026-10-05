@@ -417,6 +417,15 @@ onMounted(() => {
 li.active > a {
     color: #ffb600 !important;
 }
+@media (max-width: 768px) {
+  .custom-toggler {
+    display: flex !important;
+      align-items: center !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+       white-space: nowrap !important;
+  }
+}
 @media(max-width:1200px){
     ul.navbar-nav > li > a i {
         float: right;
