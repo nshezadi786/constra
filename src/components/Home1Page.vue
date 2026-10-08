@@ -1560,14 +1560,14 @@ html, body {
     }
 
 
-    .carousel-control-prev {
+    /* .carousel-control-prev {
         left: 15px;
     }
 
 
     .carousel-control-next {
         right: 15px;
-    }
+    } */
 
 
     .action-box {

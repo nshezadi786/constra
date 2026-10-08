@@ -930,6 +930,7 @@ blockquote:before {
 }
         /*---------carousel-slide-page---------*/
 #myCarousel button.carousel-control{
+  top:0%;
     background: rgba(0, 0, 0, 0.3);
     color: #fff;
     line-height: 70px;
@@ -938,17 +939,6 @@ blockquote:before {
     font-size: 22px;
     border-radius: 0;
     transition: all 500ms ease;
-}
-#myCarousel .carousel-control{
-    background: rgba(0, 0, 0, 0.3);
-    color: #fff;
-    line-height: 70px;
-    width: 40px;
-    height: 70px;
-    font-size: 22px;
-    border-radius: 0;
-    transition: all 500ms 
-ease;
 }
 .carousel-text h2{
   background-color:rgba(255, 255, 255, 0.5);
