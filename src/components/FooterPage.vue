@@ -67,7 +67,7 @@
         <div class="col-md-6 col-sm-4 mt-3 text-center">
           <div class="copy-right-text mb-4">
             <span>
-              Copyright © "Designed & Developed By Themefisher"
+            &copy; 2026 Constra. "Designed & Developed By Nimra Shehzadi."
             </span>
           </div>
         </div>
