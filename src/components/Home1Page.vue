@@ -1560,14 +1560,14 @@ html, body {
     }
 
 
-    /* .carousel-control-prev {
+    .carousel-control-prev {
         left: 15px;
     }
 
 
     .carousel-control-next {
         right: 15px;
-    } */
+    }
 
 
     .action-box {
@@ -1920,7 +1920,7 @@ html, body {
     margin-top: 25%;
      background-color: rgba(0, 0, 0, 0.50) !important;
     display: flex;
-    top: 50%;
+    top: 0;
     transform: translateY(-50%);
     opacity: 1 !important; 
     align-items: center;

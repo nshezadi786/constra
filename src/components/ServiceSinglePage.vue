@@ -77,61 +77,59 @@
 
                                 <div class="carousel slide" id="myCarousel" data-bs-ride="carousel">
                                     <div class="carousel-inner">
-                                       <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
               </button>
 
               <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon"></span>
               </button>
-                                        <div class="carousel-item active">
-                                            <img src="@/assets/images/projects/project2.jpg" alt="slider-bg1" class="img-fluid">
-                                        </div>
-
-
-                                        <div class="carousel-item">
-                                            <img src="@/assets/images/projects/project1.jpg" alt="slider-bg2"
-                                                class="img-fluid  w-100">
-                                        </div>
+                         <div class="carousel-item active">
+                      <img src="@/assets/images/projects/project2.jpg" alt="slider-bg1" class="img-fluid">
+                           </div>
+                     <div class="carousel-item">
+                     <img src="@/assets/images/projects/project1.jpg" alt="slider-bg2"
+                             class="img-fluid  w-100">
+                        </div>
                                     </div>
                                 </div>
                                 <div class="gap-40"></div>
 
-                                <div class="row mt-5">
-                                    <div class="col-md-6 ">
-                                        <h3 class="column-title-small">What Makes Us Different</h3>
-                                        <p class="text-muted">Anim pariatur cliche reprehenderit, enim eiusmod high life
-                                            accusamus terry richardson ad squid. 3 wolf
-                                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                            nesciunt laborum eiusmod.
-                                            Consectetur adipiscing elit. Integer adipiscing erat eget risus sollicitudin
-                                            pellentesque et non erat
-                                            tincidunt nunc posuere.</p>
-                                        <ul class="list-arrow list-unstyled text-muted">
-                                            <li>Partnership Strategy tristique eleifend.</li>
-                                            <li>Opporutnity to work with amet elit a.</li>
-                                            <li>Saving Time to Deal with commodo iaculis.</li>
-                                            <li>Leadership skills to manage erat volutpat.</li>
-                                            <li>Cut cost without sacrificing dolore magna.</li>
-                                            <li>Automate your business elis tristique.</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h3 class="column-title-small">YOU SHOULD KNOW</h3>
-                                        <div class="accordion" id="faqaccordion">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <button class="btn btn-link btn-block text-left"
-                                                        data-bs-toggle="collapse" data-bs-target="#collapseone">
-                                                        Does the law require head protection on construction sites?
-                                                    </button>
-                                                </div>
-                                                <div id="collapseone" class="collapse" data-bs-parent="#faqaccordion">
-                                                    <div class="card-body text-muted">
-                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life
-                                                        accusamus terry
-                                                        richardson ad squid. 3 wolf
-                                                        moon officia aute, non cupidata
+         <div class="row mt-5">
+                    <div class="col-md-6 ">
+                 <h3 class="column-title-small">What Makes Us Different</h3>
+               <p class="text-muted">Anim pariatur cliche reprehenderit, enim eiusmod high life
+                 accusamus terry richardson ad squid. 3 wolf
+                         moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                         nesciunt laborum eiusmod.
+                      Consectetur adipiscing elit. Integer adipiscing erat eget risus sollicitudin
+                     pellentesque et non erat
+                     tincidunt nunc posuere.</p>
+                 <ul class="list-arrow list-unstyled text-muted">
+              <li>Partnership Strategy tristique eleifend.</li>
+                 <li>Opporutnity to work with amet elit a.</li>
+                <li>Saving Time to Deal with commodo iaculis.</li>
+               <li>Leadership skills to manage erat volutpat.</li>
+                <li>Cut cost without sacrificing dolore magna.</li>
+                 <li>Automate your business elis tristique.</li>                 
+                         </ul>
+                      </div>
+                      <div class="col-md-6">
+                    <h3 class="column-title-small">YOU SHOULD KNOW</h3>
+                       <div class="accordion" id="faqaccordion">
+                           <div class="card">
+                         <div class="card-header">
+                               <button class="btn btn-link btn-block text-left"
+                               data-bs-toggle="collapse" data-bs-target="#collapseone">
+                                    Does the law require head protection on construction sites?
+                        </button>
+                           </div>
+                           <div id="collapseone" class="collapse" data-bs-parent="#faqaccordion">
+                              <div class="card-body text-muted">
+                              Anim pariatur cliche reprehenderit, enim eiusmod high life
+                              accusamus terry
+                           richardson ad squid. 3 wolf
+                            moon officia aute, non cupidata
                                                     </div>
                                                 </div>
                                             </div>
